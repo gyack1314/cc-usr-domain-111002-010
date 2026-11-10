@@ -1,0 +1,13 @@
+{
+  "phases": [
+    "base",
+    "new-record"
+  ],
+  "new-record": "首次预览之前增加一个资料并改变修订，后续预览不会重复增加",
+  "modes": [
+    "explicit",
+    "matching"
+  ],
+  "storage": "已生成包的package_id和manifest保存在localStorage，页面可找回下载",
+  "preview": "当前选择的真实成员集合，可与意图比较"
+}
