@@ -1,0 +1,172 @@
+{
+  "abort": null,
+  "binding": {
+    "mode": "matching",
+    "query": "review",
+    "revision": 1,
+    "total": 6
+  },
+  "intent": {
+    "exclusions": [
+      "DOC-03"
+    ],
+    "mode": "matching",
+    "query": "review"
+  },
+  "intent_key": "d28e8a73de61e3a9",
+  "interrupted": false,
+  "manifest": {
+    "members": [
+      "DOC-01",
+      "DOC-05",
+      "DOC-07",
+      "DOC-09",
+      "DOC-11"
+    ],
+    "mode": "matching",
+    "query": "review",
+    "revision": 1
+  },
+  "package_id": "PK-1794418468376",
+  "package_path": "state/packager-test/test_11_recover_after_generation_uses_same_package_id/d28e8a73de61e3a9/package/资料包.json",
+  "preview": {
+    "members": [
+      "DOC-01",
+      "DOC-05",
+      "DOC-07",
+      "DOC-09",
+      "DOC-11"
+    ],
+    "mode": "matching",
+    "query": "review",
+    "revision": 1
+  },
+  "selection_evidence": [
+    {
+      "checked": [
+        "DOC-01",
+        "DOC-05",
+        "DOC-07"
+      ],
+      "count": 3,
+      "note": "全部匹配模式：取消勾选即排除项，逐行复选框为唯一成员事实来源",
+      "page": "p1"
+    },
+    {
+      "checked": [
+        "DOC-09",
+        "DOC-11"
+      ],
+      "count": 2,
+      "note": "全部匹配模式：取消勾选即排除项，逐行复选框为唯一成员事实来源",
+      "page": "p2"
+    }
+  ],
+  "status": "packaged",
+  "steps": [
+    {
+      "reloaded": true,
+      "step": "open",
+      "url": "http://127.0.0.1:38627"
+    },
+    {
+      "mode": "matching",
+      "note": "条件模式绑定页面显示的查询签名/修订/匹配总数",
+      "query": "review",
+      "revision": 1,
+      "step": "binding",
+      "total": 6
+    },
+    {
+      "query": "review",
+      "step": "click-all-matching",
+      "universe": [
+        "DOC-01",
+        "DOC-03",
+        "DOC-05",
+        "DOC-07",
+        "DOC-09",
+        "DOC-11"
+      ]
+    },
+    {
+      "id": "DOC-03",
+      "page": 1,
+      "step": "exclude-row"
+    },
+    {
+      "checked": [
+        "DOC-01",
+        "DOC-05",
+        "DOC-07"
+      ],
+      "label": "recheck-after-hook",
+      "page": 1,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-09",
+        "DOC-11"
+      ],
+      "label": "recheck-after-hook",
+      "page": 2,
+      "step": "membership-read"
+    },
+    {
+      "preview": {
+        "members": [
+          "DOC-01",
+          "DOC-05",
+          "DOC-07",
+          "DOC-09",
+          "DOC-11"
+        ],
+        "mode": "matching",
+        "query": "review",
+        "revision": 1
+      },
+      "step": "preview"
+    },
+    {
+      "checked": [
+        "DOC-01",
+        "DOC-05",
+        "DOC-07"
+      ],
+      "label": "pre-generate",
+      "page": 1,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-09",
+        "DOC-11"
+      ],
+      "label": "pre-generate",
+      "page": 2,
+      "step": "membership-read"
+    },
+    {
+      "package_id": "PK-1794418468376",
+      "step": "generate"
+    },
+    {
+      "members": [
+        "DOC-01",
+        "DOC-05",
+        "DOC-07",
+        "DOC-09",
+        "DOC-11"
+      ],
+      "package_id": "PK-1794418468376",
+      "step": "verified"
+    },
+    {
+      "package_id": "PK-1794418468376",
+      "re_download": "state/packager-test/test_11_recover_after_generation_uses_same_package_id/d28e8a73de61e3a9/package/recovered-PK-1794418468376.json",
+      "step": "recover"
+    }
+  ],
+  "storage_state_path": "state/packager-test/test_11_recover_after_generation_uses_same_package_id/d28e8a73de61e3a9/storage-state.json"
+}

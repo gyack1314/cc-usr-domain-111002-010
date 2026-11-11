@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "aeb3b3dfcbc0c08b",
+    "journal": "state/packager-test/test_03_matching_mode_with_cross_page_exclusions/aeb3b3dfcbc0c08b/run.json",
+    "package_id": "PK-1794418450912",
+    "status": "packaged"
+  }
+]

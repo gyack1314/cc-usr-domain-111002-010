@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "ffebf42b12afecfd",
+    "journal": "state/packager-test/test_06_new_record_revision_change_aborts_at_preview/ffebf42b12afecfd/run.json",
+    "package_id": null,
+    "status": "aborted"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "exclusions_on_page": [
+    "DOC-01"
+  ],
+  "page": 1,
+  "rows": [
+    {
+      "checked": false,
+      "id": "DOC-01"
+    },
+    {
+      "checked": true,
+      "id": "DOC-03"
+    },
+    {
+      "checked": true,
+      "id": "DOC-05"
+    },
+    {
+      "checked": true,
+      "id": "DOC-07"
+    }
+  ]
+}

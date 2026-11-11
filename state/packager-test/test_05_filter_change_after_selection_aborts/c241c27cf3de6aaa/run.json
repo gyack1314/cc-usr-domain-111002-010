@@ -1,0 +1,141 @@
+{
+  "abort": {
+    "binding": {
+      "mode": "matching",
+      "query": "all",
+      "revision": 1,
+      "total": 11
+    },
+    "detail": "筛选签名或选择模式相对绑定值发生变化",
+    "extra": [
+      "DOC-02",
+      "DOC-04",
+      "DOC-06",
+      "DOC-08",
+      "DOC-10"
+    ],
+    "invalid_conditions": [
+      "查询签名 'all' != 绑定 'review'"
+    ],
+    "missing": [],
+    "planned": [
+      "DOC-03",
+      "DOC-05",
+      "DOC-07",
+      "DOC-09",
+      "DOC-11"
+    ],
+    "reason": "binding-changed",
+    "stage": "post-selection"
+  },
+  "binding": {
+    "mode": "matching",
+    "query": "review",
+    "revision": 1,
+    "total": 6
+  },
+  "intent": {
+    "exclusions": [
+      "DOC-01"
+    ],
+    "mode": "matching",
+    "query": "review"
+  },
+  "intent_key": "c241c27cf3de6aaa",
+  "interrupted": false,
+  "manifest": null,
+  "package_id": null,
+  "preview": null,
+  "selection_evidence": [
+    {
+      "checked": [
+        "DOC-03",
+        "DOC-05",
+        "DOC-07"
+      ],
+      "count": 3,
+      "note": "全部匹配模式：取消勾选即排除项，逐行复选框为唯一成员事实来源",
+      "page": "p1"
+    },
+    {
+      "checked": [
+        "DOC-09",
+        "DOC-11"
+      ],
+      "count": 2,
+      "note": "全部匹配模式：取消勾选即排除项，逐行复选框为唯一成员事实来源",
+      "page": "p2"
+    }
+  ],
+  "status": "aborted",
+  "steps": [
+    {
+      "reloaded": true,
+      "step": "open",
+      "url": "http://127.0.0.1:35753"
+    },
+    {
+      "mode": "matching",
+      "note": "条件模式绑定页面显示的查询签名/修订/匹配总数",
+      "query": "review",
+      "revision": 1,
+      "step": "binding",
+      "total": 6
+    },
+    {
+      "query": "review",
+      "step": "click-all-matching",
+      "universe": [
+        "DOC-01",
+        "DOC-03",
+        "DOC-05",
+        "DOC-07",
+        "DOC-09",
+        "DOC-11"
+      ]
+    },
+    {
+      "id": "DOC-01",
+      "page": 1,
+      "step": "exclude-row"
+    },
+    {
+      "hook": "after_selection",
+      "step": "before-hook"
+    },
+    {
+      "step": "after-hook"
+    },
+    {
+      "checked": [
+        "DOC-02",
+        "DOC-03",
+        "DOC-04"
+      ],
+      "label": "recheck-after-hook",
+      "page": 1,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-05",
+        "DOC-06",
+        "DOC-07",
+        "DOC-08"
+      ],
+      "label": "recheck-after-hook",
+      "page": 2,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-09",
+        "DOC-10",
+        "DOC-11"
+      ],
+      "label": "recheck-after-hook",
+      "page": 3,
+      "step": "membership-read"
+    }
+  ]
+}

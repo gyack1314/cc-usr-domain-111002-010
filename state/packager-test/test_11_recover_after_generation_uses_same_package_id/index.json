@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "d28e8a73de61e3a9",
+    "journal": "state/packager-test/test_11_recover_after_generation_uses_same_package_id/d28e8a73de61e3a9/run.json",
+    "package_id": "PK-1794418468376",
+    "status": "packaged"
+  }
+]

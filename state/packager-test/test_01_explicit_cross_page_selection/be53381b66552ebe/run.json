@@ -1,0 +1,194 @@
+{
+  "abort": null,
+  "binding": {
+    "mode": "explicit",
+    "query": "all",
+    "revision": 1,
+    "total": 11
+  },
+  "intent": {
+    "ids": [
+      "DOC-01",
+      "DOC-05",
+      "DOC-09"
+    ],
+    "mode": "explicit"
+  },
+  "intent_key": "be53381b66552ebe",
+  "interrupted": false,
+  "manifest": {
+    "members": [
+      "DOC-01",
+      "DOC-05",
+      "DOC-09"
+    ],
+    "mode": "explicit",
+    "query": "all",
+    "revision": 1
+  },
+  "package_id": "PK-1794418445945",
+  "package_path": "state/packager-test/test_01_explicit_cross_page_selection/be53381b66552ebe/package/资料包.json",
+  "preview": {
+    "members": [
+      "DOC-01",
+      "DOC-05",
+      "DOC-09"
+    ],
+    "mode": "explicit",
+    "query": "all",
+    "revision": 1
+  },
+  "selection_evidence": [
+    {
+      "checked": [
+        "DOC-01"
+      ],
+      "count": 1,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p1"
+    },
+    {
+      "checked": [
+        "DOC-05"
+      ],
+      "count": 1,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p2"
+    },
+    {
+      "checked": [
+        "DOC-09"
+      ],
+      "count": 1,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p3"
+    }
+  ],
+  "status": "packaged",
+  "steps": [
+    {
+      "reloaded": true,
+      "step": "open",
+      "url": "http://127.0.0.1:36259"
+    },
+    {
+      "note": "显式模式在“全部”资料中按编号选择",
+      "query": "all",
+      "step": "filter"
+    },
+    {
+      "page": 1,
+      "page_size": 4,
+      "rows": [
+        "DOC-01",
+        "DOC-02",
+        "DOC-03",
+        "DOC-04"
+      ],
+      "step": "page-select"
+    },
+    {
+      "page": 2,
+      "page_size": 4,
+      "rows": [
+        "DOC-05",
+        "DOC-06",
+        "DOC-07",
+        "DOC-08"
+      ],
+      "step": "page-select"
+    },
+    {
+      "page": 3,
+      "page_size": 3,
+      "rows": [
+        "DOC-09",
+        "DOC-10",
+        "DOC-11"
+      ],
+      "step": "page-select"
+    },
+    {
+      "mode": "explicit",
+      "query": "all",
+      "revision": 1,
+      "step": "binding",
+      "total": 11
+    },
+    {
+      "checked": [
+        "DOC-01"
+      ],
+      "label": "recheck-after-hook",
+      "page": 1,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-05"
+      ],
+      "label": "recheck-after-hook",
+      "page": 2,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-09"
+      ],
+      "label": "recheck-after-hook",
+      "page": 3,
+      "step": "membership-read"
+    },
+    {
+      "preview": {
+        "members": [
+          "DOC-01",
+          "DOC-05",
+          "DOC-09"
+        ],
+        "mode": "explicit",
+        "query": "all",
+        "revision": 1
+      },
+      "step": "preview"
+    },
+    {
+      "checked": [
+        "DOC-01"
+      ],
+      "label": "pre-generate",
+      "page": 1,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-05"
+      ],
+      "label": "pre-generate",
+      "page": 2,
+      "step": "membership-read"
+    },
+    {
+      "checked": [
+        "DOC-09"
+      ],
+      "label": "pre-generate",
+      "page": 3,
+      "step": "membership-read"
+    },
+    {
+      "package_id": "PK-1794418445945",
+      "step": "generate"
+    },
+    {
+      "members": [
+        "DOC-01",
+        "DOC-05",
+        "DOC-09"
+      ],
+      "package_id": "PK-1794418445945",
+      "step": "verified"
+    }
+  ],
+  "storage_state_path": "state/packager-test/test_01_explicit_cross_page_selection/be53381b66552ebe/storage-state.json"
+}

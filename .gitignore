@@ -12,4 +12,5 @@ __pycache__/
 .DS_Store
 state/
 outputs/
+*.egg-info/
 playwright-report/

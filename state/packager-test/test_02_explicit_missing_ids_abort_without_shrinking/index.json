@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "fac6efaf9d81bba1",
+    "journal": "state/packager-test/test_02_explicit_missing_ids_abort_without_shrinking/fac6efaf9d81bba1/run.json",
+    "package_id": null,
+    "status": "aborted"
+  }
+]

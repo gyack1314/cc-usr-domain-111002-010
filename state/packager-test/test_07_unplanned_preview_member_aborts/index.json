@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "c241c27cf3de6aaa",
+    "journal": "state/packager-test/test_07_unplanned_preview_member_aborts/c241c27cf3de6aaa/run.json",
+    "package_id": null,
+    "status": "aborted"
+  }
+]

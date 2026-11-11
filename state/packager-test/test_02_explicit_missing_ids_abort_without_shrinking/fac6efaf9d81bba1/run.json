@@ -1,0 +1,108 @@
+{
+  "abort": {
+    "binding": {
+      "mode": "explicit",
+      "query": "all",
+      "revision": 1,
+      "total": 11
+    },
+    "detail": "显式编号在门户全部资料中不存在",
+    "extra": [],
+    "invalid_conditions": [
+      "缺项 DOC-42",
+      "缺项 DOC-99"
+    ],
+    "missing": [
+      "DOC-42",
+      "DOC-99"
+    ],
+    "planned": [
+      "DOC-01",
+      "DOC-42",
+      "DOC-99"
+    ],
+    "reason": "missing-explicit-ids",
+    "stage": "selection"
+  },
+  "binding": null,
+  "intent": {
+    "ids": [
+      "DOC-01",
+      "DOC-42",
+      "DOC-99"
+    ],
+    "mode": "explicit"
+  },
+  "intent_key": "fac6efaf9d81bba1",
+  "interrupted": false,
+  "manifest": null,
+  "package_id": null,
+  "preview": null,
+  "selection_evidence": [
+    {
+      "checked": [
+        "DOC-01"
+      ],
+      "count": 1,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p1"
+    },
+    {
+      "checked": [],
+      "count": 0,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p2"
+    },
+    {
+      "checked": [],
+      "count": 0,
+      "note": "显式模式：逐行复选框真实点击后的勾选状态",
+      "page": "p3"
+    }
+  ],
+  "status": "aborted",
+  "steps": [
+    {
+      "reloaded": true,
+      "step": "open",
+      "url": "http://127.0.0.1:34601"
+    },
+    {
+      "note": "显式模式在“全部”资料中按编号选择",
+      "query": "all",
+      "step": "filter"
+    },
+    {
+      "page": 1,
+      "page_size": 4,
+      "rows": [
+        "DOC-01",
+        "DOC-02",
+        "DOC-03",
+        "DOC-04"
+      ],
+      "step": "page-select"
+    },
+    {
+      "page": 2,
+      "page_size": 4,
+      "rows": [
+        "DOC-05",
+        "DOC-06",
+        "DOC-07",
+        "DOC-08"
+      ],
+      "step": "page-select"
+    },
+    {
+      "page": 3,
+      "page_size": 3,
+      "rows": [
+        "DOC-09",
+        "DOC-10",
+        "DOC-11"
+      ],
+      "step": "page-select"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "7375a26d2e8db468",
+    "journal": "state/packager-test/test_12_manifest_inside_file_matches_confirmed_preview/7375a26d2e8db468/run.json",
+    "package_id": "PK-1794418471826",
+    "status": "packaged"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "abort": {
+    "binding": {
+      "mode": "explicit",
+      "query": "review",
+      "revision": 1,
+      "total": 6
+    },
+    "detail": "排除编号不属于当前筛选的匹配集合",
+    "extra": [],
+    "invalid_conditions": [
+      "排除项无匹配 DOC-02"
+    ],
+    "missing": [
+      "DOC-02"
+    ],
+    "planned": [
+      "DOC-01",
+      "DOC-03",
+      "DOC-05",
+      "DOC-07",
+      "DOC-09",
+      "DOC-11"
+    ],
+    "reason": "exclusion-not-in-match",
+    "stage": "selection"
+  },
+  "binding": {
+    "mode": "matching",
+    "query": "review",
+    "revision": 1,
+    "total": 6
+  },
+  "intent": {
+    "exclusions": [
+      "DOC-02"
+    ],
+    "mode": "matching",
+    "query": "review"
+  },
+  "intent_key": "fb2623f0d0569ed5",
+  "interrupted": false,
+  "manifest": null,
+  "package_id": null,
+  "preview": null,
+  "selection_evidence": [],
+  "status": "aborted",
+  "steps": [
+    {
+      "reloaded": true,
+      "step": "open",
+      "url": "http://127.0.0.1:34307"
+    },
+    {
+      "mode": "matching",
+      "note": "条件模式绑定页面显示的查询签名/修订/匹配总数",
+      "query": "review",
+      "revision": 1,
+      "step": "binding",
+      "total": 6
+    }
+  ]
+}

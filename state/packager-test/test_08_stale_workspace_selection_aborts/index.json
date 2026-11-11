@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "af360230f147040f",
+    "journal": "state/packager-test/test_08_stale_workspace_selection_aborts/af360230f147040f/run.json",
+    "package_id": null,
+    "status": "aborted"
+  }
+]

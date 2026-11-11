@@ -1,0 +1,46 @@
+{
+  "abort": {
+    "binding": {
+      "mode": "explicit",
+      "query": "all",
+      "revision": 1,
+      "total": 11
+    },
+    "detail": "工作区存在上一次筛选遗留的勾选，拒绝沿用",
+    "extra": [
+      "DOC-01"
+    ],
+    "invalid_conditions": [
+      "工作区未清零选择状态"
+    ],
+    "missing": [
+      "DOC-03"
+    ],
+    "planned": [
+      "DOC-03"
+    ],
+    "reason": "stale-selection",
+    "stage": "preflight"
+  },
+  "binding": null,
+  "intent": {
+    "ids": [
+      "DOC-03"
+    ],
+    "mode": "explicit"
+  },
+  "intent_key": "af360230f147040f",
+  "interrupted": false,
+  "manifest": null,
+  "package_id": null,
+  "preview": null,
+  "selection_evidence": [],
+  "status": "aborted",
+  "steps": [
+    {
+      "reloaded": false,
+      "step": "open",
+      "url": "http://127.0.0.1:38989"
+    }
+  ]
+}

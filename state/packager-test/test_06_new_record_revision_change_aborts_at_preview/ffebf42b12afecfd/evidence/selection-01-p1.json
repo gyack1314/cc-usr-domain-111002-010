@@ -1,0 +1,21 @@
+{
+  "page": 1,
+  "rows": [
+    {
+      "checked": true,
+      "id": "DOC-01"
+    },
+    {
+      "checked": false,
+      "id": "DOC-02"
+    },
+    {
+      "checked": true,
+      "id": "DOC-03"
+    },
+    {
+      "checked": false,
+      "id": "DOC-04"
+    }
+  ]
+}

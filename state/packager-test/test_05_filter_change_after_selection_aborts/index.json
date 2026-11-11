@@ -1,0 +1,8 @@
+[
+  {
+    "intent_key": "c241c27cf3de6aaa",
+    "journal": "state/packager-test/test_05_filter_change_after_selection_aborts/c241c27cf3de6aaa/run.json",
+    "package_id": null,
+    "status": "aborted"
+  }
+]
